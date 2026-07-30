@@ -1,24 +1,15 @@
-# README
+# EnterpriseOS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+EnterpriseOS is an enterprise-grade multi-tenant SaaS platform built with Ruby on Rails.
 
-Things you may want to cover:
+## Stack
 
-* Ruby version
+- Ruby 3.4.1
+- Rails 7.2.3
+- PostgreSQL
+- Hotwire
+- Docker (Coming Soon)
 
-* System dependencies
+## Status
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+🚧 Under Development
