@@ -1,5 +1,10 @@
-require 'rails_helper'
+require "rails_helper"
 
 RSpec.describe User, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it "is valid with valid attributes" do
+    organization = create(:organization)
+    user = build(:user, organization: organization)
+
+    expect(user).to be_valid
+  end
 end
